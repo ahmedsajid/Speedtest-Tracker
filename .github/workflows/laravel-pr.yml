@@ -29,6 +29,9 @@ jobs:
         echo HEALTHCHECKS_UUID=$HEALTHCHECKS_UUID >> .env
     - name: Install Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+    - name: show env
+      run: |
+        cat .env
     - name: Create Database
       run: |
         mkdir -p database
