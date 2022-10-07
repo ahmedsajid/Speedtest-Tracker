@@ -18,7 +18,7 @@
         "henrywhitaker3/laravel-actions": "^1.0",
         "influxdata/influxdb-client-php": "^1.12",
         "influxdb/influxdb-php": "^1.15",
-        "laravel-notification-channels/telegram": "^0.5.0",
+        "laravel-notification-channels/telegram": "^1.0.0",
         "laravel/framework": "^8.0",
         "laravel/slack-notification-channel": "^2.0",
         "laravel/tinker": "^2.0",
